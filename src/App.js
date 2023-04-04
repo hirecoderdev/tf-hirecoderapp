@@ -7,6 +7,7 @@ import { SnackbarProvider } from "notistack";
 import { get } from "lodash";
 import Home from "./view/Home";
 import SignIn from "./view/SignIn";
+import UpdateStore from "./hardCodedData/updateStore";
 import User from "./view/User";
 import { useHistory } from "react-router-dom";
 
@@ -34,10 +35,12 @@ function App({ isLoggedIn }) {
           <Switch>
             <Route exact from="/" render={(props) => <Home {...props} />} />
             <Route exact from="/user" render={(props) => <User {...props} />} />
+            <Route exact from="/addData" render={(props) => <UpdateStore {...props} />} />
           </Switch>
         ) : (
           <Switch>
             <Route exact from="/" render={(props) => <SignIn {...props} />} />
+         
           </Switch>
         )}
       </SnackbarProvider>

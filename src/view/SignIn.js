@@ -15,6 +15,7 @@ import { connect } from "react-redux";
 import Validations from "../helpers/Validations";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { loginStatus, addNewUser, setCurrentUserData } from "../action/user";
+// import data from "../hardCoded Data/data.json";
 
 function OtherInfo(props) {
   return (
@@ -46,7 +47,7 @@ function SignIn({ userList, loginStatus, addNewUser, setCurrentUserData }) {
   };
 
   const onSignIn = (values) => {
-    // eslint-disable-next-line array-callback-return
+    
     userList.map((user) => {
       if (user.userName === values.userName) {
         if (user.password === values.password) {

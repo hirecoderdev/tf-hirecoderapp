@@ -1,7 +1,7 @@
 import { CONFIG_TASK_DATA } from "../action/actionType";
 
 const initialState = {
-  taskList: [],
+  taskList: []
 };
 
 function task(state = initialState, action) {
