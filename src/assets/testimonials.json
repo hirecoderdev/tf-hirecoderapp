@@ -1,0 +1,170 @@
+{
+    "0":{
+        "id":0,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/client_1.jpg",
+        "media": "https://www.hirecoder.com/images/our-team/client_1.jpg",
+        "type": "Image"
+    },
+    "1":{
+        "id":1,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder2.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder2.png",
+        "type": "Image"
+    },
+    "2":{
+        "id":2,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder3.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder3.png",
+        "type": "Image"
+    },
+    "3":{
+        "id":3,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder4.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder4.png",
+        "type": "Image"
+    },
+    "4":{
+        "id":4,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder5.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder5.png",
+        "type": "Image"
+    },
+    "5":{
+        "id":5,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder6.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder6.png",
+        "type": "Image"
+    },
+    "6":{
+        "id":6,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder7.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder7.png",
+        "type": "Image"
+    },
+    "7":{
+        "id":7,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder8.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder8.png",
+        "type": "Image"
+    },
+    "8":{
+        "id":8,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder19.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder19.png",
+        "type": "Image"
+    },
+    "9":{
+        "id":9,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder45.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder45.png",
+        "type": "Image"
+    },
+    "10":{
+        "id":10,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder1.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder1.png",
+        "type": "Image"
+    },
+    "11":{
+        "id":11,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder13.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder13.png",
+        "type": "Image"
+    },
+"12":{
+        "id":12,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder91.png",
+        "media": "https://www.youtube.com/embed/gGLz7dwc1qs",
+        "type": "Video"
+    },
+    "13":{
+        "id":13,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder93.png",
+        "media": "https://www.youtube.com/embed/Sxr3J01BpJc",
+        "type": "Video"
+    },
+    "14":{
+        "id":0,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/client_1.jpg",
+        "media": "https://www.hirecoder.com/images/our-team/client_1.jpg",
+        "type": "Image"
+    },
+    "15":{
+        "id":1,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder2.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder2.png",
+        "type": "Image"
+    },
+    "16":{
+        "id":2,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder3.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder3.png",
+        "type": "Image"
+    },
+    "17":{
+        "id":3,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder4.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder4.png",
+        "type": "Image"
+    },
+    "18":{
+        "id":4,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder5.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder5.png",
+        "type": "Image"
+    },
+    "19":{
+        "id":5,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder6.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder6.png",
+        "type": "Image"
+    },
+    "20":{
+        "id":6,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder7.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder7.png",
+        "type": "Image"
+    },
+    "21":{
+        "id":7,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder8.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder8.png",
+        "type": "Image"
+    },
+    "22":{
+        "id":8,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder19.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder19.png",
+        "type": "Image"
+    },
+    "23":{
+        "id":9,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder45.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder45.png",
+        "type": "Image"
+    },
+    "24":{
+        "id":10,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder1.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder1.png",
+        "type": "Image"
+    },
+    "25":{
+        "id":11,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder13.png",
+        "media": "https://www.hirecoder.com/images/our-team/coder13.png",
+        "type": "Image"
+    },
+    "26":{
+        "id":12,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder91.png",
+        "media": "https://www.youtube.com/embed/gGLz7dwc1qs",
+        "type": "Video"
+    },
+    "27":{
+        "id":13,
+        "thumbnail":"https://www.hirecoder.com/images/our-team/coder93.png",
+        "media": "https://www.youtube.com/embed/Sxr3J01BpJc",
+        "type": "Video"
+    }
+}
