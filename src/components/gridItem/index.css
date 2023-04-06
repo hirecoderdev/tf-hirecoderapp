@@ -1,0 +1,32 @@
+.layer {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .play-button-div {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.play-button-icon {
+    display: block;
+    position: absolute;
+    left: calc(68% - 50px);
+    top: calc(67% - 50px);
+    text-align: center;
+    background-color: transparent !important;
+    border:none !important
+}
+.css-i4bv87-MuiSvgIcon-root {
+    width: 45px !important;
+    height: 45px !important;
+    color: #eee;
+    border-radius: 50px;
+    border: 1px solid #eee;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+}
