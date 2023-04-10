@@ -46,6 +46,7 @@ function SignIn({ userList, loginStatus, addNewUser, setCurrentUserData }) {
   };
 
   const onSignIn = (values) => {
+    console.log("User logged in")
     // eslint-disable-next-line array-callback-return
     userList.map((user) => {
       if (user.userName === values.userName) {
@@ -74,6 +75,7 @@ function SignIn({ userList, loginStatus, addNewUser, setCurrentUserData }) {
   };
 
   const onSignUp = (values) => {
+    console.log("User signed up successfully")
     addNewUser([...userList, { ...values }]);
     enqueueSnackbar(
       "You have successfully registered, Please loging to continue.",

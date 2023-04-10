@@ -26,6 +26,7 @@ function NavBar({ isLoggedIn, currentUser }) {
     left: false,
   });
 
+
   let history = useHistory();
   const windowWidth = useMediaQuery("(min-width:600px)");
 
@@ -106,11 +107,12 @@ function NavBar({ isLoggedIn, currentUser }) {
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             {isLoggedIn
-              ? `Welcome "${currentUser.firstName || ""} ${
-                  currentUser.lastName || ""
-                }"`
+              ? `Welcome "${currentUser.firstName || ""} ${currentUser.lastName || ""
+              }"`
               : "Welcome"}
+
           </Typography>
+
           {isLoggedIn && windowWidth && (
             <>
               <Button
@@ -141,6 +143,7 @@ function NavBar({ isLoggedIn, currentUser }) {
 
 const mapStateToProps = (state) => ({
   isLoggedIn: get(state, "userData.isLoggedIn"),
+
   currentUser: get(state, "userData.currentUser"),
 });
 

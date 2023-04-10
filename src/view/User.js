@@ -43,6 +43,7 @@ function User({
   const onLogOut = () => {
     setCurrentUserData({});
     loginStatus(false);
+    console.log("User logged out")
   };
 
   return (
@@ -122,9 +123,11 @@ function User({
                         onClick={onLogOut}
                         variant="contained"
                         sx={{ mt: 3, mb: 2 }}
+
                       >
                         LogOut
                       </Button>
+
                     </Grid>
                   </Grid>
                 </Form>
