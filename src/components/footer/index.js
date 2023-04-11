@@ -54,6 +54,7 @@ function Footer() {
 
   return (
     <>
+      <Divider />
       <div className={classes.container}>
         <Grid container spacing={4}>
           <Grid
@@ -72,10 +73,10 @@ function Footer() {
                 }}
               >
                 <FacebookRoundedIcon sx={{ color: "#43619C" }} />
-                <TwitterIcon sx={{ color: "#24A9E6" }}/>
-                <LinkedInIcon sx={{ color: "#187FB8"}}/>
-                <GoogleIcon sx={{ color: "#ec5f55" }}/>
-                <YouTubeIcon sx={{ color: "#F24033" }}/>
+                <TwitterIcon sx={{ color: "#24A9E6" }} />
+                <LinkedInIcon sx={{ color: "#187FB8" }} />
+                <GoogleIcon sx={{ color: "#ec5f55" }} />
+                <YouTubeIcon sx={{ color: "#F24033" }} />
               </div>
             </div>
           </Grid>

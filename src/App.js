@@ -14,6 +14,7 @@ import UpdateStore from "./hardCodedData/updateStore";
 import User from "./view/User";
 import { useHistory } from "react-router-dom";
 import Footer from "./components/footer";
+import style from "./style";
 
 const useStyles = makeStyles({});
 
@@ -21,10 +22,13 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: "#000"
+      main: "#000000"
     },
     secondary: {
-      main: "#fff"
+      main: "#ffffff"
+    },
+    optional: {
+      main: "#2c2b2b"
     }
   },
   typography: {
@@ -59,27 +63,28 @@ function App({ isLoggedIn }) {
   return (
     <div className={classes.container}>
       <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <SnackbarProvider
-        maxSnack={5}
-        anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-        preventDuplicate
-      >
-        <AppBar />
-        {isLoggedIn ? (
-          <Switch>
-            <Route exact from="/" render={(props) => <Home {...props} />} />
-            <Route exact from="/user" render={(props) => <User {...props} />} />
-            <Route exact from="/addData" render={(props) => <UpdateStore {...props} />} />
-          </Switch>
-        ) : (
-          <Switch>
-            <Route exact from="/" render={(props) => <SignIn {...props} />} />
-         
-          </Switch>
-        )}
-        <Footer />
-      </SnackbarProvider>
+        <CssBaseline />
+        <SnackbarProvider
+          maxSnack={5}
+          anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+          preventDuplicate
+        >
+          <AppBar />
+          <div className={classes.container}>
+            {isLoggedIn ? (
+              <Switch>
+                <Route exact from="/" render={(props) => <Home {...props} />} />
+                <Route exact from="/user" render={(props) => <User {...props} />} />
+                <Route exact from="/addData" render={(props) => <UpdateStore {...props} />} />
+              </Switch>
+            ) : (
+              <Switch>
+                <Route exact from="/" render={(props) => <SignIn {...props} />} />
+              </Switch>
+            )}
+          </div>
+          <Footer />
+        </SnackbarProvider>
       </ThemeProvider>
     </div>
   );

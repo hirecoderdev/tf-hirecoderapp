@@ -351,7 +351,7 @@ function TaskPage({ configTaskData, taskData }) {
                     </Grid>
                   </Form>
                 );
-              } }
+              }}
             </Formik>
             <Typography
               id="spring-modal-description"

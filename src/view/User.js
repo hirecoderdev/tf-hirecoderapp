@@ -46,7 +46,7 @@ function User({
   };
 
   return (
-    <div style={{ marginTop: "10%" }}>
+    <div>
       <div style={{ justifyContent: "center", display: "flex" }}>
         <Paper
           elevation={3}
@@ -92,6 +92,7 @@ function User({
                         fullWidth
                         id="password"
                         label="Password"
+
                         name="password"
                         autoComplete="password"
                       />
