@@ -1,11 +1,12 @@
 import React from 'react';
 import { Grid, Typography, Button, Box, TextField, CssBaseline } from '@mui/material';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 
 const forgotPassword = () => {
     return (
         <>
-            <Grid container component="main" sx={{ height: '150vh' }}>
+            <Grid container component="main" sx={{ height: '80vh' }}>
                 <CssBaseline />
                 <Grid
                     item
@@ -15,12 +16,7 @@ const forgotPassword = () => {
                     sx={{ pl: 2, pr: 5, pt: 12, pb: 10, background: '#FFFFFF', boxShadow: 'none' }}
                 >
                     <Box>
-                        <img
-                            src="https://images.squarespace-cdn.com/content/v1/5f355f3755ae87135c46df17/1597335930564-DCILTFVFCJHOXP5R1CV6/consuli_logo.png?format=1500w"
-                            alt="consuli"
-                            style={{ width: '118px', height: '45px' }}
-                            className="AppLogo"
-                        />
+                        <img src={logo} alt="consuli" style={{ width: '118px', height: '45px' }} className="AppLogo" />
 
                         <Typography component="h1" variant="h5" sx={{ mt: 5 }}>
                             Forgot Your Password?

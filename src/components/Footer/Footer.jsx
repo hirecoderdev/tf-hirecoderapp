@@ -9,13 +9,7 @@ function Copyright(props) {
         <Typography variant="body2" color="text.secondary" align="left" {...props}>
             {'© Copyright '}
             {new Date().getFullYear()}
-            <Link
-                color="inherit"
-                translate="no"
-                href=""
-                target="_blank"
-                sx={{ textDecoration: 'none' }}
-            >
+            <Link color="inherit" translate="no" href="" target="_blank" sx={{ textDecoration: 'none' }}>
                 {' '}
                 HireCoder .
             </Link>{' '}
@@ -29,7 +23,7 @@ const Footer = () => {
             <Grid
                 container
                 sx={{
-                    height: '50px',
+                    height: '60px',
                     alignItems: 'center',
                     display: 'flex',
                     padding: '0rem 2rem',

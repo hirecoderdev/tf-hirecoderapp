@@ -1,10 +1,7 @@
 import React, { Fragment } from 'react';
 import { Grid } from '@mui/material';
 
-
 const PageTitle = () => {
-   
-
     return (
         <Fragment>
             <Grid
@@ -29,7 +26,6 @@ const PageTitle = () => {
                         </Grid>
                         <Grid item md={4} sm={12}>
                             <button
-                                
                                 className="button-primary fullwidth"
                                 sx={{ outline: 'none', border: 'none' }}
                                 style={{ borderRadius: '2px' }}
@@ -40,7 +36,6 @@ const PageTitle = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            
         </Fragment>
     );
 };

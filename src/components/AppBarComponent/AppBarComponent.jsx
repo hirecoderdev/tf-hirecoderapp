@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import Container from '@mui/material/Container';
 import { APP_CONSTANTS } from '../../config/config';
-import logo from "../../assets/images/logo.png";
+import logo from '../../assets/images/logo.png';
 
 const { APP_TITLE } = APP_CONSTANTS;
 
@@ -71,16 +71,12 @@ export default function PrimarySearchAppBar({ children, to, ...props }) {
 
     return (
         <Box sx={{ flexGrow: 1, background: '#FFFFFF' }}>
-            <AppBar position="static" sx={{ boxShadow: 'none', background: '#FFFFFF' }}>
+            <AppBar position="static" sx={{ boxShadow: 'none', background: '#04619c' }}>
                 <Container maxwidth="sm">
                     <Toolbar className="nvabar">
                         <Typography variant="h6" noWrap component="div" sx={{ display: { xs: 'block', sm: 'block' } }}>
                             <NavLink to="/">
-                                <img
-                                    src={logo}
-                                    alt={APP_TITLE}
-                                    className="AppLogo"
-                                />
+                                <img src={logo} alt={APP_TITLE} className="AppLogo" />
                             </NavLink>
                         </Typography>
 

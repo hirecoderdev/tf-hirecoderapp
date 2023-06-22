@@ -21,7 +21,7 @@ const SetPassword = () => {
 
     return (
         <>
-            <Grid container component="main" sx={{ height: '150vh' }}>
+            <Grid container component="main" sx={{ height: '80vh' }}>
                 <CssBaseline />
                 <Grid
                     item

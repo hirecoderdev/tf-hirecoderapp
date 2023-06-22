@@ -99,7 +99,7 @@ const VerifyPin = () => {
     // var last2 = phone.slice(-2);
     return (
         <Fragment>
-            <Grid container component="main" sx={{ height: '150vh' }}>
+            <Grid container component="main" sx={{ height: '80vh' }}>
                 <CssBaseline />
                 <Grid
                     item

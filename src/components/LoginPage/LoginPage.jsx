@@ -82,7 +82,7 @@ const LoginPage = (props) => {
         <Fragment>
             {isOtpVerified ? null : (
                 <Fragment>
-                    <Grid container component="main" sx={{ height: '150vh' }}>
+                    <Grid container component="main" sx={{ height: '80vh' }}>
                         <CssBaseline />
                         <Grid item xs={12} sm={12} md={7} className="rightSide" />
                         <Grid
@@ -150,7 +150,6 @@ const LoginPage = (props) => {
                                 </Box>
                             </Box>
                         </Grid>
-                      
                     </Grid>
                     <Footer />
                 </Fragment>

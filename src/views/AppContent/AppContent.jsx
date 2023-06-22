@@ -17,14 +17,13 @@ const AppContent = ({ routes }) => {
     return (
         <Fragment>
             {
-            // location.pathname !== '/login' &&
-            // location.pathname !== '/verify' &&
-            // location.pathname !== '/forgot-password' &&
-            // location.pathname !== '/set-password' &&
-            // location.pathname !== undefined &&
-            location.pathname === '/login' ? (
-                <AppBarComponent />
-            ) : null}
+                // location.pathname !== '/login' &&
+                // location.pathname !== '/verify' &&
+                // location.pathname !== '/forgot-password' &&
+                // location.pathname !== '/set-password' &&
+                // location.pathname !== undefined &&
+                location.pathname === '/login' ? <AppBarComponent /> : null
+            }
             <CustomizedSnackbars />
             <Routes>
                 {routes.map((route) => (

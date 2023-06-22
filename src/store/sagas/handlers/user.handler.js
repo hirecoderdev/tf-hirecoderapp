@@ -4,7 +4,6 @@ import { requestSignin, generateOtp, verifyOtp } from '../requests/user.request'
 
 export function* handleSignin(action) {
     try {
-        console.log(action.payload);
         const response = yield retry(0, 0, requestSignin, action.payload);
         const { data } = response;
 
