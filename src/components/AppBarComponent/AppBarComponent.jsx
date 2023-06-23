@@ -63,9 +63,9 @@ export default function PrimarySearchAppBar({ children, to, ...props }) {
             <li className="nav-link">
                 <NavLink to="/settings">Settings</NavLink>
             </li>
-            <li className="nav-link">
+            {/* <li className="nav-link">
                 <NavLink to="/log-out">Log Out</NavLink>
-            </li>
+            </li> */}
         </Menu>
     );
 
@@ -86,14 +86,23 @@ export default function PrimarySearchAppBar({ children, to, ...props }) {
                             style={{ height: '76px', alignItems: 'center' }}
                         >
                             <li className="nav-link">
+                                <NavLink to="/job-post">Job Search</NavLink>
+                            </li>
+                            <li className="nav-link">
                                 <NavLink to="/job-post">Job Post</NavLink>
                             </li>
                             <li className="nav-link">
                                 <NavLink to="/settings">Settings</NavLink>
                             </li>
                             <li className="nav-link">
-                                <NavLink to="/log-out">Log Out</NavLink>
+                                <NavLink to="/settings">About US</NavLink>
                             </li>
+                            <li className="nav-link">
+                                <NavLink to="/settings">Contact US</NavLink>
+                            </li>
+                            {/* <li className="nav-link">
+                                <NavLink to="/log-out">Log Out</NavLink>
+                            </li> */}
                         </Box>
                         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
